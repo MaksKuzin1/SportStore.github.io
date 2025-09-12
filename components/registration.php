@@ -55,7 +55,7 @@
         <div class="form_summa TEXT_podzagolovok">Сумма: 4900 р.</div>
 
         <div class="knopka TEXT_knopka" onclick="document.getElementById('registration').submit()">Отправить</div>
-        <a href="../index.html" class="TEXT_knopka" style="text-align: end; width: 100%;">Назад</a>
+        <a href="../index.php" class="TEXT_knopka" style="text-align: end; width: 100%;">Назад</a>
       </form>
     </div>
 

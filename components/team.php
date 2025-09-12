@@ -24,7 +24,7 @@
                     <div class="TEXT_knopka">Менеджер по продажам</div>
                     <div class="TEXT_text">Занимает высокую должность в связи с дружественными свзями с директором компании</div>
                 </div>
-                <a href="../index.html" class="team_bottom knopka">
+                <a href="../index.php" class="team_bottom knopka">
                     <img src="../img/TEAM_TG.png" alt="" width="45px">
                     <img src="../img/TEAM_MESSAGE.png" alt="" width="45px">
                     <img src="../img/TEAM_TEL.png" alt="" width="45px">
@@ -40,7 +40,7 @@
                     <div class="TEXT_knopka">Лидер доставщиков</div>
                     <div class="TEXT_text">Является самым быстрым доставщиком в команде, владеет всеми лидерскими навыками</div>
                 </div>
-                <a href="../index.html" class="team_bottom knopka">
+                <a href="../index.php" class="team_bottom knopka">
                     <img src="../img/TEAM_TG.png" alt="" width="45px">
                     <img src="../img/TEAM_MESSAGE.png" alt="" width="45px">
                     <img src="../img/TEAM_TEL.png" alt="" width="45px">
@@ -56,7 +56,7 @@
                     <div class="TEXT_knopka">Главный поставщик</div>
                     <div class="TEXT_text">Ходят слухи, что в его хижине находятся несметные тренажеры и спортивные добавки</div>
                 </div>
-                <a href="../index.html" class="team_bottom knopka">
+                <a href="../index.php" class="team_bottom knopka">
                     <img src="../img/TEAM_TG.png" alt="" width="45px">
                     <img src="../img/TEAM_MESSAGE.png" alt="" width="45px">
                     <img src="../img/TEAM_TEL.png" alt="" width="45px">

@@ -16,7 +16,7 @@
     <div class="list1">
       <header class="TEXT_menu">
         <div class="header_left">
-          <a href="index.html"><img src="img/logo.png" alt="LOGO" class="logo" /></a>
+          <a href="index.php"><img src="img/logo.png" alt="LOGO" class="logo" /></a>
 
           <details class="burger">
             <summary><img src="img/бургер.png"></summary>
@@ -24,7 +24,7 @@
                   <a class="menu_burger">КАТАЛОГ</a>
                   <a class="menu_burger">ОБСЛУЖИВАНИЕ</a>
                   <a href="#otziv" class="menu_burger">ОТЗЫВЫ</a>
-                  <a href="components/registration.html" class="menu_burger">КАК ЗАКАЗАТЬ</a>
+                  <a href="components/registration.php" class="menu_burger">КАК ЗАКАЗАТЬ</a>
                   <a class="menu_burger">КОРЗИНА</a>
                   <a class="menu_burger">ВОЙТИ</a>
               </div>
@@ -45,7 +45,7 @@
             </a>
             <a class="menu_content">ОБСЛУЖИВАНИЕ</a>
             <a href="#otziv" class="menu_content">ОТЗЫВЫ</a>
-            <a href="components/registration.html" class="menu_content">КАК ЗАКАЗАТЬ</a>
+            <a href="components/registration.php" class="menu_content">КАК ЗАКАЗАТЬ</a>
           </div>
         </div>
         <div class="header_right hide">
@@ -85,7 +85,7 @@
       <div class="content_list2">
         Летний транспорт
         <div class="image2">
-          <a href="components/action.html" class="im">
+          <a href="components/action.php" class="im">
             <img src="img/im4.png" />
           </a>
           <div class="im56">
@@ -115,7 +115,7 @@
                 </div>
                 <div class="cart_top_right TEXT_knopka">4 500 р.</div>
               </div>
-              <a href="components/product_card.html" class="knopka TEXT_knopka">Сделать заказ</a>
+              <a href="components/product_card.php" class="knopka TEXT_knopka">Сделать заказ</a>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@
                 </div>
                 <div class="cart_top_right TEXT_knopka">8 800 р.</div>
               </div>
-              <a href="components/action.html" class="knopka TEXT_knopka">Сделать заказ</a>
+              <a href="components/action.php" class="knopka TEXT_knopka">Сделать заказ</a>
             </div>
           </div>
         </div>
@@ -273,9 +273,9 @@
               <div class="foot_p">Способы оплаты</div>
             </div>
             <div class="foot_info">
-              <a href="components/team.html" class="foot_p TEXT_text">О компании</a>
-              <a href="components/team.html" class="foot_p">О нас</a>
-              <a href="components/team.html" class="foot_p">Команда</a>
+              <a href="components/team.php" class="foot_p TEXT_text">О компании</a>
+              <a href="components/team.php" class="foot_p">О нас</a>
+              <a href="components/team.php" class="foot_p">Команда</a>
               <div class="foot_p">Статьи</div>
             </div>
             <div class="foot_info">

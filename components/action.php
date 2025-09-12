@@ -16,15 +16,15 @@
     <div class="list1">
       <header class="TEXT_menu">
         <div class="header_left">
-          <a href="../index.html"><img src="../img/logo.png" alt="LOGO" class="logo" /></a>
+          <a href="../index.php"><img src="../img/logo.png" alt="LOGO" class="logo" /></a>
 
           <details class="burger">
             <summary><img src="../img/бургер.png"></summary>
               <div class="burger_content">
                   <div class="menu_burger">КАТАЛОГ</div>
                   <div class="menu_burger">ОБСЛУЖИВАНИЕ</div>
-                  <a href="../index.html#otziv" class="menu_burger">ОТЗЫВЫ</a>
-                  <a href="registration.html" class="menu_burger">КАК ЗАКАЗАТЬ</a>
+                  <a href="../index.php#otziv" class="menu_burger">ОТЗЫВЫ</a>
+                  <a href="registration.php" class="menu_burger">КАК ЗАКАЗАТЬ</a>
                   <div class="menu_burger">КОРЗИНА</div>
                   <div class="menu_burger">ВОЙТИ</div>
               </div>
@@ -44,8 +44,8 @@
               <img src="../img/КаталогIMG.png" height="4px" alt="" />
             </div>
             <div class="menu_content">ОБСЛУЖИВАНИЕ</div>
-            <a href="../index.html/#otziv" class="menu_content">ОТЗЫВЫ</a>
-            <a href="registration.html" class="menu_content">КАК ЗАКАЗАТЬ</a>
+            <a href="../index.php/#otziv" class="menu_content">ОТЗЫВЫ</a>
+            <a href="registration.php" class="menu_content">КАК ЗАКАЗАТЬ</a>
           </div>
         </div>
         <div class="header_right hide">
@@ -83,7 +83,7 @@
                     </div>
                 </div>
             </div>
-            <a href="registration.html" class="knopka TEXT_knopka">Сделать заказ</a>
+            <a href="registration.php" class="knopka TEXT_knopka">Сделать заказ</a>
         </div>
     </div>
 
