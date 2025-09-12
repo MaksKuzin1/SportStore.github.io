@@ -4,6 +4,10 @@
   /* border: dotted 2px rgb(196, 61, 61); */
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out, color 0.0.s ease-in-out;
 }
+.night_theme{
+  background-color: var(--black);
+  color: var(--white);
+}
 :root{
   --black:#333333;
   --blue:#2E85FF;

@@ -12,6 +12,14 @@
     />
     <title>Sport Store</title>
   </head>
+  
+<?php
+$date = new DateTime('NOW');
+$hour = $date->format('G');
+if ($hour < 8 || $hour >= 23) {
+    echo"<body class='night_theme'>";
+}
+?>
   <body>
     <div class="list1">
       <header class="TEXT_menu">
