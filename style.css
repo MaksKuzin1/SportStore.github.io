@@ -8,10 +8,10 @@
   background-color: var(--black);
   color: var(--white);
 }
-.night_theme2 .menu_content{
+.night_theme .menu_content{
   color: var(--white);
 }
-.night_theme3 {
+.night_theme .list3, .night_theme .list5{
   color: var(--black);
 }
 :root{

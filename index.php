@@ -14,27 +14,16 @@
   </head>
   
 <?php
-$firstTime = 8;
-$secondTime = 23;
-
 $date = new DateTime('NOW');
 $hour = $date->format('G');
-if ($hour < $firstTime || $hour >= $secondTime) {
+if ($hour < 80 || $hour >= 23) {
     echo"<body class='night_theme'>";
 }else{
     echo"<body>";
 }
 ?>
     <div class="list1">
-      <?php
-      $date = new DateTime('NOW');
-      $hour = $date->format('G');
-      if ($hour < $firstTime || $hour >= $secondTime) {
-          echo"<header class='TEXT_menu night_theme2'>";
-      }else{
-          echo"<header class='TEXT_menu'>";
-      }
-      ?>
+      <header class="TEXT_menu">
         <div class="header_left">
           <a href="index.php"><img src="img/logo.png" alt="LOGO" class="logo" /></a>
 
@@ -123,16 +112,8 @@ if ($hour < $firstTime || $hour >= $secondTime) {
     <div class="list3">
       <h2 class="TEXT_podzagolovok">Популярные модели</h2>
 
-      <?php
-      $date = new DateTime('NOW');
-      $hour = $date->format('G');
-      if ($hour < $firstTime || $hour >= $secondTime) {
-          echo"<div class='content_list3 night_theme3'>";
-      }else{
-          echo"<div class='content_list3'>";
-      }
-      ?>
-
+      <div class="content_list3">
+        
         <div class="cart cart_1">
           <div class="cart_conteiner">
             <div class="cart_content">
@@ -205,16 +186,7 @@ if ($hour < $firstTime || $hour >= $secondTime) {
 
     <div class="list5">
       <div class="list5_text TEXT_podzagolovok" id="otziv">Отзывы наших покупателей</div>
-      
-      <?php
-      $date = new DateTime('NOW');
-      $hour = $date->format('G');
-      if ($hour < $firstTime || $hour >= $secondTime) {
-          echo"<div class='list5_content night_theme3'>";
-      }else{
-          echo"<div class='list5_content'>";
-      }
-      ?>
+      <div class="list5_content">
 
         <div class="list5_cart">
           <div class="list5_cart_content">
