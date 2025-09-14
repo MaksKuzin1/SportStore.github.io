@@ -8,6 +8,12 @@
   background-color: var(--black);
   color: var(--white);
 }
+.night_theme2 .menu_content{
+  color: var(--white);
+}
+.night_theme3 {
+  color: var(--black);
+}
 :root{
   --black:#333333;
   --blue:#2E85FF;
