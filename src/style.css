@@ -14,6 +14,9 @@
 .night_theme .list3, .night_theme .list5{
   color: var(--black);
 }
+.night_theme .list_registration_team{
+  color: #333333;
+}
 :root{
   --black:#333333;
   --blue:#2E85FF;
@@ -223,7 +226,7 @@ header {
 .banner {
   width: 100%;
   height: 700px;
-  background: url(img/baner_back.png);
+  background: url(../img/banner_back.png);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -346,13 +349,13 @@ header {
   cursor: pointer;
 }
 .cart_1{
-  background: url(img/cart1.png);
+  background: url(../img/cart1.png);
 }
 .cart_2{
-  background: url(img/cart2.png);
+  background: url(../img/cart2.png);
 }
 .cart_3{
-  background: url(img/cart3.png);
+  background: url(../img/cart3.png);
 }
 .cart{
   background-position-x: center;
@@ -802,7 +805,7 @@ footer{
 }
 /*  Акция!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .action_list{
-  background-image: url(img/action.png);
+  background-image: url(../img/action.png);
   width: 100%;
   height: 780px;
   background-size: cover;
@@ -878,7 +881,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/registr.png);
+  background-image: url(../img/registr.png);
   background-position: center;
   background-size: cover;
   margin-top: -15px;

@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Sport Store/Форма регистрации</title>
-  </head>
-  <body>
+<?php include '../includes/head.php'; ?>
     <div class="list_registration_team TEXT_text">
       <form action="" id="registration">
         <div class="form_content">
@@ -55,7 +41,7 @@
         <div class="form_summa TEXT_podzagolovok">Сумма: 4900 р.</div>
 
         <div class="knopka TEXT_knopka" onclick="document.getElementById('registration').submit()">Отправить</div>
-        <a href="../index.php" class="TEXT_knopka" style="text-align: end; width: 100%;">Назад</a>
+        <a href="../src/index.php" class="TEXT_knopka" style="text-align: end; width: 100%;">Назад</a>
       </form>
     </div>
 
