@@ -21,4 +21,5 @@ if ($hour < 8 || $hour >= 23) {
 }else{
     echo"<body>";
 }
+ob_start();
 ?>

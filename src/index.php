@@ -8,8 +8,17 @@
             Активного отдыха
           </h1>
           <div class="TEXT_podzagolovok banner_content_text">
-            «SPORT STORE» предлагает большой выбор спортивных товаров для
-            занятий спортом.
+            <?php
+            $str = "«SPORT STORE» предлагает большой выбор спортивных товаров для занятий спортом.";
+            $str = explode(' ', $str);
+            $color = '';
+            foreach ($str as $i => $el) {
+              $color = ($i %2== 0) ?'red':'blue';
+              $str[$i] = "<span style='color:$color'>$str[$i]</span>";
+            }
+            $str = implode(" ", $str);
+            echo $str;            
+            ?>
           </div>
         </div>
       </div>
@@ -209,7 +218,5 @@
       <iframe class="karta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4758.002388471159!2d58.98548242756834!3d53.39691852568774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d12f1b103e41dd%3A0x3ca203fbaefb4941!2z0JzQsNCz0L3QuNGC0L7Qs9C-0YDRgdC60LjQuSDQs9C-0YHRg9C00LDRgNGB0YLQstC10L3QvdGL0Lkg0YLQtdGF0L3QuNGH0LXRgdC60LjQuSDRg9C90LjQstC10YDRgdC40YLQtdGCINC40LwuINCTLtCYLiDQndC-0YHQvtCy0LA!5e0!3m2!1sru!2sru!4v1747331856175!5m2!1sru!2sru"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <?php include '../includes/footer.php'; ?>
     </div>
-
-
   </body>
 </html>
