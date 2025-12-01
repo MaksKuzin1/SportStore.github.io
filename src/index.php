@@ -8,17 +8,7 @@
             Активного отдыха
           </h1>
           <div class="TEXT_podzagolovok banner_content_text">
-            <?php
-            $str = "«SPORT STORE» предлагает большой выбор спортивных товаров для занятий спортом.";
-            $str = explode(' ', $str);
-            $color = '';
-            foreach ($str as $i => $el) {
-              $color = ($i %2== 0) ?'red':'blue';
-              $str[$i] = "<span style='color:$color'>$str[$i]</span>";
-            }
-            $str = implode(" ", $str);
-            echo $str;            
-            ?>
+            <?php textColor("«SPORT STORE» предлагает большой выбор спортивных товаров для занятий спортом.");?>
           </div>
         </div>
       </div>

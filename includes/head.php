@@ -14,12 +14,6 @@
   </head>
   
 <?php
-$date = new DateTime(datetime: 'NOW');
-$hour = $date->format('G');
-if ($hour < 8 || $hour >= 23) {
-    echo"<body class='night_theme'>";
-}else{
-    echo"<body>";
-}
-ob_start();
+  include '../function/function.php';
+  nightTheme();
 ?>
